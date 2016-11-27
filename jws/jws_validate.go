@@ -3,7 +3,7 @@ package jws
 import (
 	"fmt"
 
-	"github.com/SermoDigital/jose/crypto"
+	"gopkg.in/jose.v1/crypto"
 )
 
 // VerifyCallback is a callback function that can be used to access header

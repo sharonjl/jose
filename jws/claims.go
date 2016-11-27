@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/SermoDigital/jose"
-	"github.com/SermoDigital/jose/jwt"
+	"gopkg.in/jose.v1"
+	"gopkg.in/jose.v1/jwt"
 )
 
 // Claims represents a set of JOSE Claims.

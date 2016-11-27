@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"gopkg.in/jose.v0"
+	"gopkg.in/jose.v1"
 )
 
 func TestPayloadMarshal(t *testing.T) {

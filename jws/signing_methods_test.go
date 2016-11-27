@@ -6,7 +6,7 @@ import (
 	"io"
 	"testing"
 
-	c "gopkg.in/jose.v0/crypto"
+	c "gopkg.in/jose.v1/crypto"
 )
 
 func init() { crypto.RegisterHash(crypto.Hash(0), HH) }

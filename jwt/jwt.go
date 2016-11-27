@@ -1,6 +1,6 @@
 package jwt
 
-import "gopkg.in/jose.v0/crypto"
+import "gopkg.in/jose.v1/crypto"
 
 // Opts represents some of the validation options.
 type Opts struct {

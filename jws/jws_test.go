@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"gopkg.in/jose.v0/crypto"
+	"gopkg.in/jose.v1/crypto"
 )
 
 type easy []byte

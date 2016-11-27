@@ -3,7 +3,7 @@ package jws
 import (
 	"testing"
 
-	"gopkg.in/jose.v0/crypto"
+	"gopkg.in/jose.v1/crypto"
 )
 
 var claims = Claims{

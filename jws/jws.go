@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"sort"
 
-	"gopkg.in/jose.v0"
-	"gopkg.in/jose.v0/crypto"
+	"gopkg.in/jose.v1"
+	"gopkg.in/jose.v1/crypto"
 )
 
 // JWS represents a specific JWS.

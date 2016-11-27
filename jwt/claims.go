@@ -3,7 +3,7 @@ package jwt
 import (
 	"encoding/json"
 
-	"github.com/SermoDigital/jose"
+	"gopkg.in/jose.v0"
 )
 
 // Claims implements a JOSE Claim set with the addition of some helper

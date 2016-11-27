@@ -3,8 +3,8 @@ package jws
 import (
 	"time"
 
-	"github.com/SermoDigital/jose/crypto"
-	"github.com/SermoDigital/jose/jwt"
+	"gopkg.in/jose.v0/crypto"
+	"gopkg.in/jose.v0/jwt"
 )
 
 // Claims represents a set of JOSE Claims.

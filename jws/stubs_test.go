@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/SermoDigital/jose/crypto"
+	"gopkg.in/jose.v0/crypto"
 )
 
 func Error(t *testing.T, want, got interface{}) {

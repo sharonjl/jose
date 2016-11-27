@@ -3,7 +3,7 @@ package jws
 import (
 	"testing"
 
-	"github.com/SermoDigital/jose/crypto"
+	"gopkg.in/jose.v0/crypto"
 )
 
 var claims = Claims{

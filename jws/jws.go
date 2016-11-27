@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"sort"
 
-	"github.com/SermoDigital/jose"
-	"github.com/SermoDigital/jose/crypto"
+	"gopkg.in/jose.v0"
+	"gopkg.in/jose.v0/crypto"
 )
 
 // JWS represents a specific JWS.

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/SermoDigital/jose"
+	"gopkg.in/jose.v0"
 )
 
 func TestPayloadMarshal(t *testing.T) {

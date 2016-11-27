@@ -1,6 +1,6 @@
 package jwt
 
-import "github.com/SermoDigital/jose/crypto"
+import "gopkg.in/jose.v0/crypto"
 
 // Opts represents some of the validation options.
 type Opts struct {

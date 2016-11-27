@@ -3,7 +3,7 @@ package crypto
 import (
 	"encoding/json"
 
-	"github.com/SermoDigital/jose"
+	"gopkg.in/jose.v0"
 )
 
 // Signature is a JWS signature.

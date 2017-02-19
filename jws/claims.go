@@ -119,7 +119,7 @@ func (c Claims) RemoveSubject() {
 
 // RemoveAudience deletes claim "aud" from c.
 func (c Claims) RemoveAudience() {
-	jwt.Claims(c).Audience()
+	jwt.Claims(c).RemoveAudience()
 }
 
 // RemoveExpiration deletes claim "exp" from c.
@@ -134,7 +134,7 @@ func (c Claims) RemoveNotBefore() {
 
 // RemoveIssuedAt deletes claim "iat" from c.
 func (c Claims) RemoveIssuedAt() {
-	jwt.Claims(c).IssuedAt()
+	jwt.Claims(c).RemoveIssuedAt()
 }
 
 // RemoveJWTID deletes claim "jti" from c.
